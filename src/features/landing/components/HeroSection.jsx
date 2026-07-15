@@ -25,7 +25,7 @@ export default function HeroSection({ onNavigate }) {
             </span>
           </h3>
 
-          <h1 className="mt-12 font-bold text-[clamp(2rem,4vw,4rem)] leading-[1.1] text-slate-900 dark:text-white">
+          <h1 className="mt-12 font-bold text-[clamp(2rem,3.5vw,4rem)] leading-[1.1] text-slate-900 dark:text-white">
             Your Space to{' '}
             <span className="text-brand-primary">
               {display}
@@ -41,7 +41,7 @@ export default function HeroSection({ onNavigate }) {
             the modern university student.
           </p>
 
-          <div className="flex gap-4">
+          <div className="flex gap-4 mb-20">
             <button
               onMouseMove={handleMouseMove}
               onMouseLeave={reset}

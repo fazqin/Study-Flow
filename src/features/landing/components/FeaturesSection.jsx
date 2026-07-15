@@ -25,7 +25,7 @@ export default function FeaturesSection({ onNavigate }) {
   return (
     <>
       <section id="features">
-        <div className="flex-col bg-mist-100 dark:bg-gray-800 mt-50 py-20 text-center">
+        <div className="flex-col bg-mist-100 dark:bg-gray-900 mt-50 py-20 text-center">
           <h3 className="text-[30px] font-poppins font-bold text-gray-800 dark:text-gray-100">
             Everything You need to excel
           </h3>
